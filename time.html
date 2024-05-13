@@ -67,14 +67,6 @@ h1 {
     display: inline-block;
 }
 
-.date {
-    display: block;
-    min-width: 162px;
-    /* padding-right: 30px; */
-    /* border-right: 2px solid #295C7B; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-}
 
     </style>
 </head>
@@ -85,7 +77,6 @@ h1 {
   <div class="table-cell">
     
     <div class="card">
-      <div class="date" id="date"></div>
       <div class="clock">
         <div class="time" id="hour"></div>
         <div class="colon">:</div>
@@ -97,12 +88,6 @@ h1 {
 </div>
 
 <script>
-    function date() {
-var today = new Date();
-document.getElementById('date').innerHTML = today.toDateString();
-}
-
-
 function clock() {
 var today = new Date();
 var hour = zeros(twelveHour(today.getHours()));
