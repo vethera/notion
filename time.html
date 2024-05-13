@@ -93,10 +93,10 @@ var today = new Date();
 var hour = zeros(twelveHour(today.getHours()));
 var minutes = zeros(today.getMinutes());
 if(today.getHours() >=12){
-    seconds+=" pm"
+    minutes+=" pm"
 }
 else{
-    seconds+=" am"
+    minutes+=" am"
 }
 hrs = today.getHours();
 // console.log(today.toLocaleTimeString());
