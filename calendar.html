@@ -144,7 +144,7 @@ Source https://codepen.io/ismailvtl/pen/KrVrbp
 //check the console for date click event
 
 function CalendarControl() {
-  const calendar = new Date("1069");
+  const calendar = new Date();
   const calendarControl = {
     localDate: new Date(),
     calWeekDays: ["Saursdag", "Maundag", "Trisdag", "Ournsdag", "Thorsdag", "Frosdag", "Larsdag"],
@@ -195,14 +195,14 @@ function CalendarControl() {
     },
     navigateToCurrentMonth: function() {
       let currentMonth = calendarControl.localDate.getMonth();
-      let currentYear = calendarControl.localDate.getFullYear()-955;
+      let currentYear = calendarControl.localDate.getFullYear();
       calendar.setMonth(currentMonth);
       calendar.setYear(currentYear);
       calendarControl.attachEventsOnNextPrev();
     },
     displayYear: function() {
       let yearLabel = document.querySelector(".calendar .calendar-year-label");
-      yearLabel.innerHTML = calendar.getFullYear();
+      yearLabel.innerHTML = calendar.getFullYear()-955;
     },
     displayMonth: function() {
       let monthLabel = document.querySelector(
@@ -268,7 +268,7 @@ function CalendarControl() {
           let currentMonth = calendarControl.localDate.getMonth() + 1;
           let changedMonth = calendar.getMonth() + 1;
           let currentYear = calendarControl.localDate.getFullYear();
-          let changedYear = calendar.getFullYear()-955;
+          let changedYear = calendar.getFullYear();
           if (
             currentYear === changedYear &&
             currentMonth === changedMonth &&
