@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Vethera Interactive World Map
+	</title>
+</head>
+
+<body>
+
+<img src="worldmap3.jpg" alt="Vethera World Map" usemap="#worldmap">
+
+<map name="worldmap">
+  <area shape="circle" coords="266, 867, 20" alt="Asterfell" href="www.notion.so/Asterfell-3eace60b089c4f6eaab19b0e1f9f1faf?pvs=21">
+  <area shape="circle" coords="603, 607, 7" alt="Brightstream" href="www.notion.so/Brightstream-f4d101724598404faf97e5e9790fa5e8?pvs=21">
+  <area shape="circle" coords="120, 554, 10" alt="Eithelo'cuil" href="www.notion.so/Eithelo-cuil-4f0cfcda984b4cc8a045883343d8ec5b?pvs=21">
+  <area shape="circle" coords="474, 844, 10" alt="Gobtown" href="www.notion.so/Gobtown-69a5b2062e4c4aeab57731b7b9746e92?pvs=21">
+  <area shape="circle" coords="647, 700, 10" alt="Kaldast" href="www.notion.so/Kaldast-294872f734e04b1684be2ce05847c057?pvs=21">
+  <area shape="circle" coords="140, 310, 10" alt="Maroth" href="www.notion.so/Maroth-0189eba7e2c94e7ea8071c899a64bb68?pvs=21">
+  <area shape="circle" coords="330, 610, 10" alt="Nova Calaeris" href="www.notion.so/Nova-Calaeris-36eadc622bbb4cbe968c16d45f768b03?pvs=21">
+  <area shape="circle" coords="320, 898, 7" alt="River’s Rise" href="www.notion.so/River-s-Rise-6a029ca3270e4f23ba1b88c651fde4a6?pvs=21">
+  <area shape="circle" coords="250, 1005, 7" alt="Tallash Colony" href="www.notion.so/Tallash-Colony-49b6cf94ca40487692a85e2527a32026?pvs=21">
+</map>
+
+</body>
+
+</html>
